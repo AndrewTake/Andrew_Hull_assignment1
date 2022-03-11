@@ -30,13 +30,25 @@ body {
   justify-content: flex;
 }
 
-.notebox {
+/* .notebox {
   width: fit-content;
   resize: none;
   display: flex;
   justify-content: left;
   border: none;
   color: white;
+} */
+
+.textareadiv {
+  display: flex;
+  justify-content: center;
+  margin-top: 30%;
+  resize: none;
+}
+
+.textarea {
+  display: flex;
+  justify-content: center;
 }
 /* {
   margin: 500;
