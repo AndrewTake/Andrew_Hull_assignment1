@@ -1,105 +1,136 @@
-/* For mobile phones: */
-[class*="col-"] {
-  width: 100%;
-}
-
-@media only screen and (min-width: 768px) {
-  /* For desktop: */
-  .col-1 {
-    width: 8.33%;
-  }
-  .col-2 {
-    width: 16.66%;
-  }
-  .col-3 {
-    width: 25%;
-  }
-  .col-4 {
-    width: 33.33%;
-  }
-  .col-5 {
-    width: 41.66%;
-  }
-  .col-6 {
-    width: 50%;
-  }
-  .col-7 {
-    width: 58.33%;
-  }
-  .col-8 {
-    width: 66.66%;
-  }
-  .col-9 {
-    width: 75%;
-  }
-  .col-10 {
-    width: 83.33%;
-  }
-  .col-11 {
-    width: 91.66%;
-  }
-  .col-12 {
-    width: 100%;
-  }
-}
-
-h1,
-h2 {
-  font-family: "Ubuntu", sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
 }
 
 body {
-  font-family: "Raleway", sans-serif;
-  background-color: #f6c177;
+  background: blue;
 }
-nav {
-  background-color: #f6c177;
+
+.container {
+  display: flex;
+  position: relative;
 }
-footer {
+
+.container .contained {
   position: fixed;
+  width: 200px;
+  height: 100%;
+  background: white;
+  padding: 30px;
+}
+
+.button {
+  display: flex;
+  position: relative;
+  width: auto;
+  justify-content: flex;
+}
+
+.notebox {
+  width: fit-content;
+  resize: none;
+  display: flex;
+  justify-content: left;
+  border: none;
+  color: white;
+}
+/* {
+  margin: 500;
+  padding: 500;
+  height: max-content;
+}
+
+a:visited {
+  color: #0000;
+  text-decoration: none;
+}
+a:hover {
+  color: #5e008a;
+  text-decoration: none;
+}
+a:link {
+  color: #171a1b;
+  text-decoration: none;
+}
+
+.left-flexbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.side-menu {
+  display: flex;
+  justify-content: left;
+  height: inherit;
+  position: sticky;
+  top: 0;
+  list-style-type: none;
+}
+
+.button {
+  background-color: #171a1b;
+  font-family: "Aresenal", sans-serif;
+  position: sticky;
+  top: 0px;
+}
+
+.middle-flexbox {
+}
+
+.note-button {
+  color: #171a1b;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  padding-top: 200%;
+  justify-content: left;
+  border: none;
+  background: none;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: right;
+  position: sticky;
+  top: 0;
+}
+.nav-container ul li {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  display: inline;
+  padding-right: 20%;
+}
+
+.button {
+  color: black;
+}
+
+.note-flexbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.note-box {
+}
+
+footer {
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
   left: 0;
   bottom: 0;
   width: 100%;
   text-align: center;
-}
-.flexbox {
-  display: flex;
-  justify-content: center;
-  margin-top: 150px;
-}
-.text {
-  display: flex;
-  justify-content: center;
-}
-
-.note-button {
-  display: flex;
-  justify-content: center;
-  margin-right: 200px;
-}
-.button {
-  background-color: #4caf50; /* Green */
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-}
-.pagelink {
-  display: flex;
-  justify-content: right;
-  color: #232136;
-  height: inherit;
-  top: 0;
-  list-style-type: none;
-  padding-right: 20px;
-}
-.links {
-  display: flex;
-  padding-right: 20px;
-}
+  position: fixed;
+} */
 
 /* BELOW IS REFERENCE FROM 1620 BLOG */
 
@@ -108,7 +139,7 @@ footer {
   margin: 0;
   padding: 0;
   background-color: #e5e4e3;
-} */
+}
 
 /* LEADING TITLES
 span,
@@ -199,7 +230,7 @@ h6 {
   background-color: black;
 }
 /*  MISCELLANEOUS */
-body {
+/* body {
   background-color: #171a1b;
 }
 
@@ -213,12 +244,12 @@ p {
   flex-direction: row;
   /* padding-right: 58em;
     padding-left: 1em; */
-  font-size: 16px;
+/* font-size: 16px;
 
   font-family: "Noto Serif Display", serif;
-}
+} */
 
-pre code {
+/* pre code {
   font-family: monospace;
   border: 1px solid #171a1b;
   display: block;
@@ -237,9 +268,9 @@ a:hover {
 }
 a:link {
   color: #171a1b;
-}
+} */
 /* NAVIGATION */
-nav {
+/* nav {
   height: auto;
   width: 100%;
   margin: 0 auto;
@@ -278,4 +309,4 @@ nav {
     display: flex;
     flex-direction: column;
   }
-} */
+}  */
