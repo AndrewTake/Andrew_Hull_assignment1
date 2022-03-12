@@ -6,4 +6,4 @@
 
 ## link to my color palette
 
-[my_color_palette] [#191724,#1f1d2e,#26233a]
+[my_color_palette] [#ebbcba,#1f1d2e,#6e6a86]
