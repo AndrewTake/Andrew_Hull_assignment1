@@ -7,7 +7,7 @@
 }
 
 body {
-  background: blue;
+  background: #6e6a86;
 }
 
 .container {
@@ -19,10 +19,23 @@ body {
   position: fixed;
   width: 200px;
   height: 100%;
-  background: white;
+  background: #ebbcba;
   padding: 30px;
 }
+.notelinks {
+  display: flex;
+  justify-content: right;
+  color: #26233a;
+  height: inherit;
+  top: 0;
+  list-style-type: none;
+  padding-right: 20px;
+}
 
+.links {
+  display: flex;
+  padding: right;
+}
 .button {
   display: flex;
   position: relative;
@@ -30,14 +43,15 @@ body {
   justify-content: flex;
 }
 
-/* .notebox {
+.notebox {
   width: fit-content;
   resize: none;
   display: flex;
   justify-content: left;
   border: none;
-  color: white;
-} */
+  color: #1f1d2e;
+  resize: none;
+}
 
 .textareadiv {
   display: flex;
@@ -50,6 +64,37 @@ body {
   display: flex;
   justify-content: center;
 }
+
+.s-box {
+  margin-top: none;
+}
+.s-box {
+  display: flex;
+  justify-content: center;
+}
+.noteContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5%;
+}
+
+.About {
+  display: flex;
+  justify-content: right;
+}
+
+/* .navContainer {
+  display: flex;
+  justify-content: right;
+  position: sticky;
+  top: 0;
+  list-style-type: none;
+}
+.navContainer ul li {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  display: inline;
+  padding-right: 20%; */
+
 /* {
   margin: 500;
   padding: 500;
