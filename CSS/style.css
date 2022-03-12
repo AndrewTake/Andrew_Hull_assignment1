@@ -9,54 +9,49 @@
 body {
   background: #6e6a86;
 }
-
+li {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+/* CLASSES */
 .container {
   display: flex;
-  position: relative;
+  justify-content: end;
 }
 
 .container .contained {
-  position: fixed;
-  width: 200px;
+  position: right;
+  height: auto;
   height: 100%;
   background: #ebbcba;
-  padding: 30px;
-}
-.notelinks {
-  display: flex;
-  justify-content: right;
-  color: #26233a;
-  height: inherit;
-  top: 0;
-  list-style-type: none;
-  padding-right: 20px;
+  padding: 40px;
 }
 
-.links {
+.notelinks,
+a {
+  margin: 0px;
+  color: #1f1d2e;
+  font-weight: 700;
   display: flex;
-  padding: right;
+  justify-content: right;
+  color: #1f1d2e;
+  padding: 14px 16px;
+  font-size: 1.5em;
+  text-decoration: none;
+  transition: opacity 300ms ease;
 }
+
 .button {
   display: flex;
   position: relative;
   width: auto;
-  justify-content: flex;
-}
-
-.notebox {
-  width: fit-content;
-  resize: none;
-  display: flex;
-  justify-content: left;
-  border: none;
-  color: #1f1d2e;
-  resize: none;
+  justify-content: end;
 }
 
 .textareadiv {
   display: flex;
   justify-content: center;
-  margin-top: 30%;
+  margin-top: none;
   resize: none;
 }
 
@@ -81,6 +76,16 @@ body {
 .About {
   display: flex;
   justify-content: right;
+}
+
+footer {
+  text-align: center;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  position: fixed;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
 }
 
 /* .navContainer {
